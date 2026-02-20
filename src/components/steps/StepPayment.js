@@ -33,7 +33,7 @@ function StepPayment({ quoteData, selectedPlan, onBack, onReset }) {
 
   if (isConfirmed) {
     return (
-      <section className="quote-section">
+      <section className="quote-section has-step-indicator">
         <div className="quote-card">
           <div className="confirmation-view">
             <div className="confirmation-icon">{'\u2713'}</div>
@@ -79,7 +79,7 @@ function StepPayment({ quoteData, selectedPlan, onBack, onReset }) {
   }
 
   return (
-    <section className="quote-section">
+    <section className="quote-section has-step-indicator">
       <div className="quote-card">
         <h2>Payment</h2>
 

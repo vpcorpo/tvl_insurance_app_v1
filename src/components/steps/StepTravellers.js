@@ -62,7 +62,7 @@ function StepTravellers({ travellerCount, initialData, onBack, onNext }) {
   };
 
   return (
-    <section className="quote-section">
+    <section className="quote-section has-step-indicator">
       <div className="quote-card">
         <h2>Traveller Details</h2>
 

@@ -42,7 +42,7 @@ const PLANS = [
 
 function StepOptions({ quoteData, selectedPlan, onSelectPlan, onBack, onNext }) {
   return (
-    <section className="quote-section">
+    <section className="quote-section has-step-indicator">
       <div className="quote-card">
         <h2>Choose Your Plan</h2>
 
