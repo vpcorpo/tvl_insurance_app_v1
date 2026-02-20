@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        TravelGuard <span>Insurance</span>
+        Travel Insurance <span>Corp</span>
       </Link>
       <ul className="navbar-links">
         <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link></li>

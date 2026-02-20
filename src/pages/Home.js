@@ -100,7 +100,7 @@ function Home() {
 
       {currentStep === 1 && (
         <section className="features-section">
-          <h2>Why Choose TravelGuard?</h2>
+          <h2>Why Choose Travel Insurance Corp?</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">&#127758;</div>

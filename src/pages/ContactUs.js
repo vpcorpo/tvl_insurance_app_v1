@@ -60,8 +60,8 @@ function ContactUs() {
               <span className="contact-info-icon">&#9993;</span>
               <div>
                 <h3>Email</h3>
-                <p>info@travelguard.com.au</p>
-                <p>claims@travelguard.com.au</p>
+                <p>info@travelinsurancecorp.com.au</p>
+                <p>claims@travelinsurancecorp.com.au</p>
               </div>
             </div>
             <div className="contact-info-item">
