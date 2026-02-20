@@ -1,0 +1,7 @@
+services:
+  tvl-insurance-app:
+    build: .
+    container_name: tvl-insurance-app
+    ports:
+      - "3000:80"
+    restart: unless-stopped
